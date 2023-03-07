@@ -1,0 +1,46 @@
+.psearchContainer {
+  width: 100%;
+  height: calc(100vh - 64px);
+  padding: 20px;
+  background-clip: content-box;
+  background-color: #f0f2f5;
+  .search {
+    padding-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .search_input {
+      width: 70%;
+    }
+    .search_buttom {
+      margin-left: 2%;
+    }
+  }
+  .tittle {
+    height: 40px;
+    margin-left: 5%;
+    line-height: 40px;
+  }
+  .search_result {
+    border-radius: 40px;
+    background-color: white;
+    height: calc(100% - 120px);
+    overflow: auto;
+    width: 90%;
+    margin: 0 auto;
+    .list {
+      width: 90%;
+      margin: 0 auto;
+    }
+    .info_change{
+      margin-right: 10px;
+    }
+    .reg_click {
+      margin-right: 15px;
+    }
+    .loading {
+      width: 30px;
+      margin: 0 auto;
+      margin-top: 25px;
+    }
+  }
+}

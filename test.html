@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="print">打印</button>
+    <div class="con"></div>
+    <img src="https://www.sheyue.work:3001/html/image/actiondetails/%E8%83%8C%E9%98%94%E8%82%8C/%E5%9D%90%E4%BD%8D%E5%90%91%E5%90%8E%E6%8B%89%E6%8B%89%E5%8A%9B%E5%99%A8%EF%BC%88%E5%88%92%E8%88%B9%E5%8A%A8%E4%BD%9C%EF%BC%89/%E5%9D%90%E4%BD%8D%E5%90%91%E5%90%8E%E6%8B%89%E6%8B%89%E5%8A%9B%E5%99%A8%EF%BC%88%E5%88%92%E8%88%B9%E5%8A%A8%E4%BD%9C%EF%BC%89%20%E8%B5%B7%E5%A7%8B%E4%BD%8D.png" alt="">
+    <script>
+        const x = `<div><div><a href=""></a><a href=""></a> <a href=""></a><a href=""></a></div></div>`;
+        const but = document.getElementById("print");
+        const box = document.getElementsByClassName("con")[0];
+        console.log(but);
+        console.log(box);
+        but.addEventListener("click", () => {
+            console.log("click");
+            box.innerHTML = x;
+        })
+
+    </script>
+</body>
+
+</html>

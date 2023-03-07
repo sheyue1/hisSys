@@ -1,0 +1,27 @@
+.diagonalContainer {
+  width: 100%;
+  min-height: 1500px;
+  padding: 20px;
+  .Descriptions {
+    margin-bottom: 30px;
+  }
+  .action {
+    display: flex;
+    flex-direction: row;
+  }
+  .tittle {
+  }
+  .search {
+    margin-top: 20px;
+    margin-left: 20px;
+    .but {
+      margin-left: 10px;
+    }
+  }
+  .diagnosis_submit {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+}

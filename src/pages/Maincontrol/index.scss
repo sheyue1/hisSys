@@ -1,0 +1,29 @@
+.Main_Layout {
+  min-width: 1200px;
+  min-height: 800px;
+  overflow: auto;
+  .Header {
+    background-color: #16a085;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    border-radius: 0 0px 30px 30px;
+    .userID {
+      position: absolute;
+      right: 80px;
+      height: 64px;
+      line-height: 64px;
+    }
+    .useratr {
+      position: absolute;
+      right: 40px;
+    }
+  }
+  .Menu {
+    padding-top: 20px;
+  }
+  .content_layout {
+    background-color: #fff;
+    border-left: 1px solid #f0f2f5;
+  }
+}

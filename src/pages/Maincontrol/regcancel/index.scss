@@ -1,0 +1,18 @@
+.regcancelContainer {
+  width: 100%;
+  padding: 20px;
+}
+.cancel_search {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+  padding-top: 40px;
+}
+.cancel_search .input {
+  width: 50%;
+  margin-left: 20%;
+}
+.cancel_search .but {
+  margin-left: 30px;
+}
